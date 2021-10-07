@@ -1,0 +1,19 @@
+{
+  "name": "kdt-sock-chat",
+  "version": "1.0.0",
+  "description": "Websocket chat service with express, socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayoonKoo/kdt-sock-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayoonKoo/kdt-sock-chat/issues"
+  },
+  "homepage": "https://github.com/JayoonKoo/kdt-sock-chat#readme"
+}
