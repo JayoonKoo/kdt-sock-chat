@@ -11,9 +11,11 @@ app.use('/public', express.static(__dirname + "/public"));
 
 const indexRouter = require('./routes');
 const clubsRouter = require('./routes/clubs');
+const chataRouter = require('./routes/chat');
 
 app.use('/', indexRouter);
 app.use('/clubs', clubsRouter);
+app.use('/chat', chataRouter);
 
 server.listen(3000, () => {
 	console.log("Express Server is now listening on localhost:3000...");
