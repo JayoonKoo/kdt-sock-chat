@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 const http = require('http');
+const path = require('path');
 const server = http.createServer(app);
+
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 const indexRouter = require('./routes');
 const clubsRouter = require('./routes/clubs');
